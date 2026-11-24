@@ -247,3 +247,23 @@ footer .wrap{padding:48px 0 26px}
   .tarjeta .leyenda{font-size:.8rem}
   .ejes{grid-template-columns:1fr}
 }
+
+/* ---- Devocional en vivo y tecnología ---- */
+.en-vivo{display:inline-flex;align-items:center;gap:10px;background:var(--azul);color:#fff;border-radius:999px;padding:.6rem 1.2rem;margin:4px 0 6px;font-size:.98rem}
+.punto{width:12px;height:12px;border-radius:50%;background:#FF3B30;box-shadow:0 0 0 0 rgba(255,59,48,.7);animation:latido 1.6s infinite;flex:none}
+@keyframes latido{70%{box-shadow:0 0 0 12px rgba(255,59,48,0)}100%{box-shadow:0 0 0 0 rgba(255,59,48,0)}}
+.mini{margin:10px 0 0;font-weight:800;color:var(--gris);font-size:.95rem}
+.logo-devo{text-align:center}
+.logo-devo img{width:min(420px,100%);aspect-ratio:1/1;object-fit:cover;border-radius:50%;margin-inline:auto;box-shadow:0 18px 40px rgba(7,71,166,.35);border:6px solid var(--sol)}
+.logo-pie{margin:16px 0 0;font-weight:800;color:var(--azul)}
+.tec{margin-top:64px}
+.tec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0}
+.tec-item{background:var(--crema);border-radius:var(--radio);padding:22px 20px;border-bottom:8px solid var(--verde);transition:transform .2s}
+.tec-item:nth-child(2){border-color:var(--naranja)}.tec-item:nth-child(3){border-color:var(--sol)}
+.tec-item:nth-child(4){border-color:#27A7E0}.tec-item:nth-child(5){border-color:var(--lima)}
+.tec-item:hover{transform:translateY(-4px)}
+.tec-item span{font-size:2rem;display:block}
+.tec-item b{display:block;font-family:var(--titulo);font-weight:400;font-size:1.45rem;color:var(--azul);margin:.2rem 0}
+.tec-item p{margin:0;color:var(--gris);font-size:.96rem;line-height:1.45}
+@media (max-width:820px){.tec-grid{grid-template-columns:1fr 1fr}.logo-devo img{width:min(320px,86%)}}
+@media (max-width:480px){.tec-grid{grid-template-columns:1fr}.en-vivo{font-size:.9rem}}
