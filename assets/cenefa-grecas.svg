@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="64" viewBox="0 0 48 64">
+  <rect width="48" height="64" fill="#C8102E"/>
+  <rect y="0" width="48" height="5" fill="#111827"/>
+  <rect y="59" width="48" height="5" fill="#111827"/>
+  <!-- triángulos escalonados amarillos -->
+  <polygon points="24,8 38,24 10,24" fill="#F5B800"/>
+  <polygon points="24,22 40,40 8,40" fill="#F5B800"/>
+  <polygon points="24,12 31,21 17,21" fill="#C8102E"/>
+  <polygon points="24,27 33,37 15,37" fill="#C8102E"/>
+  <!-- cruces / puntos -->
+  <rect x="21" y="44" width="6" height="14" fill="#0747A6"/>
+  <rect x="17" y="48" width="14" height="6" fill="#0747A6"/>
+  <circle cx="24" cy="51" r="2" fill="#C8D926"/>
+  <circle cx="4" cy="51" r="2.5" fill="#1B9E4B"/>
+  <circle cx="44" cy="51" r="2.5" fill="#1B9E4B"/>
+</svg>
